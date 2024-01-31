@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "task1"
+version = "0.1.0"
+description = ""
+authors = ["Main Admin <roman.kalashnikov.kazan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.109.0"
+python-dotenv = "^1.0.0"
+uvicorn = "^0.26.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.25"
+psycopg2 = "^2.9.9"
+asyncpg = "^0.29.0"
+werkzeug = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
